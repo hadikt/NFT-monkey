@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<div class="card">
+<h1 class="brose">Brose By Categories</h1>
+<div class="btns">
+    <button class="all">All</button>
+    <button class="game">Game</button>
+    <button class="abstract">3D Abstract</button>
+    <button class="virtual">Virtual World</button>
+    <button class="music">Music</button>
+    <button class="char">Character</button>
+    <button class="game">Game</button>
+</div>
+<div style="width: 100vw; display: flex; flex-wrap: wrap;">
+<div class="apps" *ngFor="let item of product">
+    <div class="product">
+    <div class="content">
+        <img src="../../assets/child.jpg" alt="" srcset="" class="image">
+        <div class="bore">
+        <h4 class="Bored">Bored Ape#56</h4>
+        <p class="wizard">@wizard</p>
+    </div>
+    <div class="likess">
+        <span class="material-symbols-outlined" >
+            favorite
+            </span> <p class="price">92</p>
+        </div>
+    </div>
+    <div class="rectangle">
+    
+        <div >
+            <img src="{{item.img}}" alt="" srcset="" class="rect">
+        </div>
+        <div >
+<img src="{{item.img2}}" alt="" class="square">
+        </div>
+        <div  >
+            <img src="{{item.img3}}" alt=""class="second">
+
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- <img src="" alt=""> -->

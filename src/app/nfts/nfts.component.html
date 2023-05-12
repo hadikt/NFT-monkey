@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL white,GRAD@20..48,100..700,0..1,-50..200" />
+<div class="card">
+<h1 class="trend">Our Trending NFTs</h1>
+<div style="width: 200vw; display: flex; column-gap: -10px; flex-wrap: wrap;  ">
+<div class="app" *ngFor="let item of monkey">
+    <div class="prize">
+    <img src="{{item.img}}" alt="" class="kids">
+    <p class="kid">{{item.names}}</p>
+    <p class="likes"></p>
+    <p class="like">298</p>
+</div>
+<div class="content">
+    <img src="{{item.img2}}" alt="" class="images">
+ <p class="farmer">Farmer VOX#414</p>
+ <p class="price">price:90.4 ETH</p>
+ <p class="hour">30h:45m:56s</p>
+ <button class="place">Place A Bid</button>
+
+</div>
+</div>
+</div>
+</div>
+<img src="" alt="">

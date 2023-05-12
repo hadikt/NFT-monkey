@@ -1,0 +1,60 @@
+.trend{
+    color: white;
+    margin: 80px;
+    margin-left: 120px;
+    font-size: 70px;
+}.app{
+
+    margin-left: 124px;
+    background-color: #6d4ccd;
+    width: 370px;
+    height: 550px;
+    padding: 20px;
+    
+    
+}.kids{
+    width: 40px;
+    height: 40px;
+   
+    /* border-radius: 100px; */
+}.prize{
+    display: flex;
+    gap: 10px;
+}.kid{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}.like{
+    margin-left: 160px;
+    color: white;
+    margin-top: 5px;
+    font-size: 25px;
+}.images{
+    width: 360px;
+    height: 350px;
+}.farmer{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}.price{
+    color: white;
+    font-size: 16px;
+    /* font-weight: bolder; */
+}.hour{
+    color: white;
+    font-size: 18px;
+    margin-left: 265px;
+    margin-top: -35px;
+}.place{
+    width: 360px;
+    height: 50px;
+    /* color: white; */
+    font-size: 18px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

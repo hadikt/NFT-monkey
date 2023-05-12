@@ -1,0 +1,28 @@
+ .card{
+    width: 000px;
+    height: 400px;
+    margin: 40px;
+    margin-left: 140px;
+    z-index: 1; 
+}.img{
+    width: 1600px;
+    height: 500px;
+}.large{
+    color: white;
+    /* background-color: yellowgreen; */
+}.sent{
+    margin-top: -450px;
+    width: 1500px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 34px;
+}.start{
+    color: white;
+}.explore{
+    width: 200px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: bolder;
+}

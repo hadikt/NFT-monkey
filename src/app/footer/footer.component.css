@@ -1,0 +1,39 @@
+.crea{
+    width: 450px;
+    height: 400px;
+    /* background-color: red; */
+    margin: 145px;
+    margin-top: 300px;
+}.para{
+    color: white;
+    font-size: 30px;
+}.cre{
+    font-size: 50px;
+    color: white;
+}.market{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: -570px;
+}.resource{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-left: 1160px;
+    margin-top: -420px;
+}.about{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-left: 1550px;
+    margin-top: -600px;
+}.copy{
+    text-align: center;
+    color: white;
+    margin-top: 500px;
+    font-size: 30px;
+}
